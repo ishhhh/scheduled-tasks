@@ -3,8 +3,8 @@ import pandas
 from random import randint
 import smtplib
 
-my_email = 'ismael.rivera.iii.happy.birthday@gmail.com'
-password = 'icps admy okqj zgwj'
+MY_EMAIL = os.environ.get("MY_EMAIL")
+MY_PASSWORD = os.environ.get("MY_PASSWORD")
 
 today = dt.datetime.now()
 # print(today)
